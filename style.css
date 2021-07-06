@@ -1,0 +1,47 @@
+/* Tag Element definitions */
+html {
+    height:100%;
+    box-sizing: border-box;
+}
+
+body{
+    height:96%;
+    background-color: #444;
+    color: white;
+}
+section {
+    height: 100%
+}
+
+* {
+    box-sizing: inherit;
+}
+
+/* Class definitions*/
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.navIcon{
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+/* ID Definitions */
+
+#betweenHeader{
+    text-align: center;
+}
+
+#main_content{
+    margin-top: 75px;
+}
+
+#footer{
+    text-align: center;
+    background-color: #222222;
+    height:35px;
+}
