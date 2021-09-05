@@ -1,28 +1,22 @@
 /* Tag Element definitions */
 html {
-    height:100%;
     box-sizing: border-box;
 }
 
 body{
-    height:96%;
     background-color: #444;
     color: white;
 }
-section {
-    height: 100%
-}
 
-* {
-    box-sizing: inherit;
-}
 
 /* Class definitions*/
 
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
 .wrapper {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    padding-bottom: 2.5rem;
 }
 .navIcon{
     height: 40px;
@@ -37,11 +31,14 @@ section {
 }
 
 #main_content{
-    margin-top: 75px;
+    margin-top: 15px;
 }
 
 #footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     background-color: #222222;
-    height:35px;
+    height: 2.5rem;
 }
